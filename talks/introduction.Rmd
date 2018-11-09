@@ -122,16 +122,17 @@ This is the computer equivalent of the old phrase "Many hands make light work" w
 
 `r readLines("../images/parallel_analogies.txt")`
 
+</div>
+
 ## Where parallel computing helps
 
 Some of the most fundamental statistcal summaries in statistics are easily split into small pieces.
 
-$\bar X = \frac{1}{n} \Sigma_i X_i$
+
+$\bar X = \frac{1}{n} \Sigma X_i = \frac{1}{n} (\Sigma_1 X_i + \Sigma_2 X_i + ...+\Sigma_k X_i)$
 
 <div class="notes">
 
-In Statistics, you often see the Greek letter $\Sigma$ in various formulas.
-
-</div>
+In Statistics, you often see the Greek letter Sigma in various formulas. Anywhere you see a Sigma, you have an opportunity to take advantage of parallel computing. Note that counting fits into this framework nicely. It is simply the sum of X's where the X's are either 0 or 1.
 
 </div>

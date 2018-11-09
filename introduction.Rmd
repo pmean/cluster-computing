@@ -1,0 +1,85 @@
+---
+title: "Introduction to cluster computing"
+author: "Steve Simon, P.Mean Consulting"
+output: powerpoint_presentation
+---
+
+## Abstract
+
+This presentation will cover some of the historical background for cluster computing and describe a project to illustrate cluster computing in action using several Raspberry Pi computers connected to an Ethernet switch.
+
+<div class="notes">
+
+Let me share some of my personal motivations for preparing this talk. I like to say that I was a data scientist before the term "data science" was even invented, but if truth be told, many of the data science tools that I used in the 1980s and 1990s are completely obsolete. Perhaps the data science tool that is used most often today is cluster computing or some variant of cluster computing.
+
+I have not yet had the need for cluster computing, but I did want to learn the technology. The two ways most commonly suggested for learning cluster computing are to simulate a cluster on a single computer or to buy time on a cluster computer out in the cloud.
+
+I disliked both of these ideas because they were largely opaque. I might be able to get the software that runs on a cluster working, but I wouldn't really understand how it works.
+
+So I bought three Raspberry Pi computers, an Ethernet switch, and a dog bone case and decided to build my own cluster. This is hardly an original idea of mine, but I still want to work on it, both for my own benefit, but then to use as a teaching tool for others who might also want to learn cluster computing.
+
+</div>
+
+## What is a computer cluster?
+
+![Wikipedia article on computer cluster](images/wikipedia_definition.png)
+
+<div class="notes">
+
+The description found on Wikpedia is a pretty good one.
+
+"A computer cluster is a set of loosely or tightly connected computers that work together so that, in many respects, they can be viewed as a single system. Unlike grid computers, computer clusters have each node set to perform the same task, controlled and scheduled by software."
+
+My term, "cluster computing" means "running programs on a computer cluster." I like to use that term because it places the emphasis on the software side of things, and I've always been more of a software person than a hardware person.
+
+This screenshot is of a web page that is licensed under the 
+
+</div>
+
+## Why would you want to use a computer cluster?
+
+A cluster computer offers several advantages:
+
+* high availability
+
+* load balancing
+
+* scalability
+
+* parallel processing
+
+<div class="notes">
+
+There are lots of reasons to use a computer cluster. In the next few slides, we'll outline four of them.
+
+</div>
+
+## High availability
+
+![image of person working on a cluster computer](images/working_on_cluster.jpg)
+
+<div class="notes">
+
+Take notice of the number of components that appear multiple times in this picture of a computer cluster. With a bit of care, you can set up this system so that if one component within a computer cluster fails, the others components take over the work. In most systems, you can even swap in a new component for the one that fails without having to take the entire cluster down.
+
+Has anyone in the audience actually seen a cluster computer? What does it look like? Has anyone actually performed maintenance on a cluster computer?
+
+This image was found at Wikimedia Commons (https://en.wikipedia.org/wiki/File:InterWorksServer,jpg.jpg) and is licensed under the Creative Commons Attribution-ShareAlike 3.0 License. 
+
+</div>
+
+## Load balancing
+
+![image of multiple lane road](images/multilane_road.jpg)
+
+<div class="notes">
+
+A cluster computer that receives and processes multiple requests for data can send the tasks to the components that are least busy. This is like multiple lanes on a road where you find the lane that is most open.
+
+Load balancing is very important for websites that get a lot of traffic. A computer cluster devoted to serving web pages is known as a web farm.
+
+<div class="notes">
+
+This image was found at https://pxhere.com/en/photo/873405 and is licensed under the CC0 public domain license.
+
+</div>

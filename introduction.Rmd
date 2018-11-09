@@ -32,7 +32,7 @@ The description found on Wikpedia is a pretty good one.
 
 My term, "cluster computing" means "running programs on a computer cluster." I like to use that term because it places the emphasis on the software side of things, and I've always been more of a software person than a hardware person.
 
-This screenshot is of a web page that is licensed under the 
+`r readLines("images/wikipedia_definition.txt")`
 
 </div>
 
@@ -78,8 +78,9 @@ A cluster computer that receives and processes multiple requests for data can se
 
 Load balancing is very important for websites that get a lot of traffic. A computer cluster devoted to serving web pages is known as a web farm.
 
-<div class="notes">
-
 This image was found at https://pxhere.com/en/photo/873405 and is licensed under the CC0 public domain license.
 
 </div>
+
+## Scalability
+

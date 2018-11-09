@@ -22,7 +22,7 @@ So I bought three Raspberry Pi computers, an Ethernet switch, and a dog bone cas
 
 ## What is a computer cluster?
 
-![Wikipedia article on computer cluster](images/wikipedia_definition.png)
+![Wikipedia article on computer cluster](../images/wikipedia_definition.png)
 
 <div class="notes">
 
@@ -32,7 +32,7 @@ The description found on Wikpedia is a pretty good one.
 
 My term, "cluster computing" means "running programs on a computer cluster." I like to use that term because it places the emphasis on the software side of things, and I've always been more of a software person than a hardware person.
 
-`r readLines("images/wikipedia_definition.txt")`
+`r readLines("../images/wikipedia_definition.txt")`
 
 </div>
 
@@ -46,6 +46,8 @@ A cluster computer offers several advantages:
 
 * scalability
 
+* modularity
+
 * parallel processing
 
 <div class="notes">
@@ -56,7 +58,7 @@ There are lots of reasons to use a computer cluster. In the next few slides, we'
 
 ## High availability
 
-![image of person working on a cluster computer](images/working_on_cluster.jpg)
+![image of person working on a cluster computer](../images/working_on_cluster.jpg)
 
 <div class="notes">
 
@@ -64,13 +66,13 @@ Take notice of the number of components that appear multiple times in this pictu
 
 Has anyone in the audience actually seen a cluster computer? What does it look like? Has anyone actually performed maintenance on a cluster computer?
 
-This image was found at Wikimedia Commons (https://en.wikipedia.org/wiki/File:InterWorksServer,jpg.jpg) and is licensed under the Creative Commons Attribution-ShareAlike 3.0 License. 
+`r readLines("../images/working_on_cluster.txt")`
 
 </div>
 
 ## Load balancing
 
-![image of multiple lane road](images/multilane_road.jpg)
+![image of multiple lane road](../images/multilane_road.jpg)
 
 <div class="notes">
 
@@ -78,9 +80,58 @@ A cluster computer that receives and processes multiple requests for data can se
 
 Load balancing is very important for websites that get a lot of traffic. A computer cluster devoted to serving web pages is known as a web farm.
 
-This image was found at https://pxhere.com/en/photo/873405 and is licensed under the CC0 public domain license.
+`r readLines("../images/multilane_road.txt")`
 
 </div>
 
 ## Scalability
 
+![Image of computer components on a rack](../images/rack_computers.jpg)
+
+<div class="notes">
+
+You can easily scale up a computer cluster to handle bigger problems. Notice the empty spots in this computer rack. You would just buy another computer component (typically a computer CPU or a storage drive), pop it into the rack, and hook up a few cables, download some software onto the component, and you're ready to go.
+
+`r readLines("../images/rack_computers.txt")`
+
+</div>
+
+## Modularity
+
+![quote about Google](../images/google_disk_failures.png)
+
+<div class="notes">
+
+The flip side of scalability is that the components of a cluster computer do not need to be terribly expensive. Each component is only carrying a fraction of the total load, so it does not have to be the biggest or fastest on the block.
+
+Here is a quote from a historical review of some of the software systems that were developed for computer clusters. 
+
+"How Google handled disk failure. When Google was still in its early days they faced the problem of hard disk failure in their data centers. Since their core business was (and still is) “data”, they easily justified a decision to gradually replace their failing low-cost disks with more expensive, top of the line ones. As the company rose exponentially, so did the overall number of disks, and soon, they counted hard drives in millions. The decision yielded a longer disk life, when you consider each drive by itself, but in a pool of hardware that large it was still inevitable that disks fail, almost by the hour. That meant that they still had to deal with the exact same problem, so they gradually reverted back to regular, commodity hard drives and instead decided to solve the problem by considering component failure not as exception, but as a regular occurrence."
+
+</div>
+
+## Parallel processing
+
+![Images of a wheat harvest and a barn raising drawing analogies to parallel processing](../images/parallel_analogies.png)
+
+<div class="notes">
+
+The advantage that I am most interested in is the ability of a computer cluster to process tasks in parallel. These images of a row of threshers harvesting a wheat field and a large group of workers at a barn raising illustrate the benefit of splitting a large task into small pieces that are run simultaneously. 
+
+This is the computer equivalent of the old phrase "Many hands make light work" which can be traced all the way back to the early 1300s, according to dictionary.com.
+
+`r readLines("../images/parallel_analogies.txt")`
+
+## Where parallel computing helps
+
+Some of the most fundamental statistcal summaries in statistics are easily split into small pieces.
+
+$\bar X = \frac{1}{n} \Sigma_i X_i$
+
+<div class="notes">
+
+In Statistics, you often see the Greek letter $\Sigma$ in various formulas.
+
+</div>
+
+</div>

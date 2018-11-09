@@ -1,0 +1,1 @@
+You can find this image at the Lawrence Livermore Naitonal Laboratory website, in a tutorial article on parallel computing written by Blaise Barney (https://computing.llnl.gov/tutorials/parallel_comp/). The article is copyrighted, and the excerpt used here is covered under the fair use provisions of copyright law.

@@ -12,6 +12,8 @@ This presentation will cover some of the software systems for cluster computing 
 
 There is a wide range of software systems for cluster computing. I wanted to provide a brief overview of these systems and some historical background to motivate why these systems were originally developed.
 
+I am very interested in feedback from all of you. Have I summarized these software systems well? Are there other systems for cluster computing that I have neglected?
+
 </div>
 
 ## Common features of software systems for cluster computing
@@ -38,9 +40,19 @@ They also have, for the most part, versions for other operating systems like Win
 
 <div class="notes">
 
+The oldest system for cluster computing, MPI, is still in use today. MPI stands for Message Passing Interface.
+
 `r readLines("../images/mpi_tutorial.txt")`
 
 </div>
+
+## Hadoop
+
+![Screenshot from Apache Hadoop website](../images/apache_hadoop.png)
+
+<div class="notes">
+
+`r readLines("../images/apache_hadoop.txt")`
 
 ## Conclusion
 

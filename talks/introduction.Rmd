@@ -6,7 +6,7 @@ output: powerpoint_presentation
 
 ## Abstract
 
-This presentation will cover some of the historical background for cluster computing and describe a project to illustrate cluster computing in action using several Raspberry Pi computers connected to an Ethernet switch.
+This presentation will cover some of the basic concepts and historical background for cluster computing.
 
 <div class="notes">
 
@@ -31,6 +31,8 @@ The description found on Wikpedia is a pretty good one.
 "A computer cluster is a set of loosely or tightly connected computers that work together so that, in many respects, they can be viewed as a single system. Unlike grid computers, computer clusters have each node set to perform the same task, controlled and scheduled by software."
 
 My term, "cluster computing" means "running programs on a computer cluster." I like to use that term because it places the emphasis on the software side of things, and I've always been more of a software person than a hardware person.
+
+But this particular talk will emphasize what a computer cluster is and why it helps.
 
 `r readLines("../images/wikipedia_definition.txt")`
 
@@ -124,9 +126,9 @@ This is the computer equivalent of the old phrase "Many hands make light work" w
 
 </div>
 
-## Where parallel computing helps
+## Parallel computing and statistics
 
-Some of the most fundamental statistcal summaries in statistics are easily split into small pieces.
+Some of the most fundamental statistical summaries in statistics are easily split into small pieces.
 
 
 $\bar X = \frac{1}{n} \Sigma X_i = \frac{1}{n} (\Sigma_1 X_i + \Sigma_2 X_i + ...+\Sigma_k X_i)$
@@ -134,5 +136,33 @@ $\bar X = \frac{1}{n} \Sigma X_i = \frac{1}{n} (\Sigma_1 X_i + \Sigma_2 X_i + ..
 <div class="notes">
 
 In Statistics, you often see the Greek letter Sigma in various formulas. Anywhere you see a Sigma, you have an opportunity to take advantage of parallel computing. Note that counting fits into this framework nicely. It is simply the sum of X's where the X's are either 0 or 1.
+
+</div>
+
+## Parallel computing and simulation
+
+![Illustration of [Hamiltonian Monte Carlo](http://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html)](../images/stan_simulation.png)
+
+<div class="notes">
+
+Simulation is another big area where parallel computing can help. This image shows an illustration Hamiltonian Monte Carlo, a simulation technique quite useful for Bayesian models.
+
+`r readLines("../images/stan_simulation.txt")`
+
+</div>
+
+## Conclusion
+
+This talk has covered
+
+* What a computer cluster is.
+
+* Why it helps.
+
+<div class="notes">
+
+In summary, a computer cluster is a set of individual computers that are linked together to work as a single unit.
+
+A cluster computer has five advantages: high availability, load balancing, scalability, modularity, and parallel processing.
 
 </div>

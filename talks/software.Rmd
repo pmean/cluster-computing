@@ -1,0 +1,57 @@
+---
+title: "Software for cluster computing"
+author: "Steve Simon, P.Mean Consulting"
+output: powerpoint_presentation
+---
+
+## Abstract
+
+This presentation will cover some of the software systems for cluster computing with an emphasis on R libraries that can work with these systems.
+
+<div class="notes">
+
+There is a wide range of software systems for cluster computing. I wanted to provide a brief overview of these systems and some historical background to motivate why these systems were originally developed.
+
+</div>
+
+## Common features of software systems for cluster computing
+
+All of software systems described in this presentation are
+
+* distributed under open source licenses,
+
+* have lots of free documentation, and
+
+* run on any reasonable Unix based system.
+
+<div class="notes">
+
+The nice thing about cluster computing is that the software used on computer clusters is easy to obtain and used. It uses liberal open source licenses. It has lots of high quality documentation and tutorials, most of which are free. These software systems run easily on any reasonable Unix based system including Raspbian, the system used commonly on the Raspberry Pi computer.
+
+They also have, for the most part, versions for other operating systems like Windows. But if you are interested in learning about cluster computing, you are much better off if you learn it on a Unix-based system.
+
+</div>
+
+## Message Passing Interface (MPI)
+
+![Screenshot from Blaise Barney's MPI tutorial](../images/mpi_tutorial.png)
+
+<div class="notes">
+
+`r readLines("../images/mpi_tutorial.txt")`
+
+</div>
+
+## Conclusion
+
+This talk has covered
+
+* Message Passing Interface
+
+* ...
+
+<div class="notes">
+
+In summary, ...
+
+</div>

@@ -1,0 +1,1 @@
+This is a screen shot from the Lawrence Livermore Naitonal Laboratory website, in a tutorial article on Message Passing Interface written by Blaise Barney (https://computing.llnl.gov/tutorials/mpi/). The article is copyrighted, and the excerpt used here is covered under the fair use provisions of copyright law.

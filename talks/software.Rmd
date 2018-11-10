@@ -46,13 +46,77 @@ The oldest system for cluster computing, MPI, is still in use today. MPI stands 
 
 </div>
 
+## MPI is a routine library
+
+![Colm Ó hÉigeartaigh;'s website listing of MPI routines](../images/mpi_routines.png)
+
+<div class="notes">
+
+MPI is a collection of subroutines that you can call from old school programming languages like C++, or Fortran. But you can also run MPI in Python.
+
+`r readLines("../images/mpi_routines.txt")`
+
+</div>
+
 ## Hadoop
 
 ![Screenshot from Apache Hadoop website](../images/apache_hadoop.png)
 
 <div class="notes">
 
+Hadoop is a foundational tool upon which a large number of other cluster computing tools rely.
+
 `r readLines("../images/apache_hadoop.txt")`
+
+</div>
+
+## Components of Hadoop
+
+* MapReduce
+
+* Hadoop Distributed File System (HDFS) 
+
+* Hive
+
+* Pig
+
+## MapReduce
+
+![Mapreduce applied to a simple word count example](../mapreduce_illustration.png)
+
+<div class="notes">
+
+Mapreduce is system for sending pieces of a programming problem to individual nodes of a cluster computer (the map part), having those nodes produce a summary (the reduce part), and then recombining the individual node summaries.
+
+Although Mapreduce is at the heart and soul of Hadoop, it was originally developed by Google prior to the development of Hadoop. The term "mapreduce" has become a generic term for the algorithmic process.
+
+`r readLines("../images/mapreduce_illustration.txt")`
+
+</div>
+
+## Hadoop Distributed File System (HDFS) 
+
+![Illustration of HDFS architecture](hdfs_architecture.png)
+
+<div class="notes">
+
+`r readLines("../images/hdfs_architecture.txt")`
+
+</div>
+
+## Pig
+
+## Hive
+
+## Spark
+
+![Screenshot of Apache Spark main web page](../images/apache_spark.png)
+
+<div class="notes">
+
+`r readLines("../images/apache_spark.txt")`
+
+</div>
 
 ## Conclusion
 
@@ -60,7 +124,17 @@ This talk has covered
 
 * Message Passing Interface
 
-* ...
+* Hadoop
+
+  + MapReduce
+  
+  + HDFS
+  
+  + Pig
+  
+  + Hive
+
+* Spark
 
 <div class="notes">
 

@@ -1,0 +1,1 @@
+This is an image from a blog posting on MapReduce written by Martijn van Groningen for the Trifork blog (https://blog.trifork.com/2009/08/04/introduction-to-hadoop/). This image is copyrighted, and is used here under the fair use provisions of copyright law.

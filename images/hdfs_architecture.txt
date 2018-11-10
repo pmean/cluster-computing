@@ -1,0 +1,1 @@
+This is an image from a tutorial on HDFS on the Apache Spark website written (https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#NameNode+and+DataNodes). This image is copyrighted and is used under the fair use provisions of copyright law.

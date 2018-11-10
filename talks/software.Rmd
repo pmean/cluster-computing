@@ -82,7 +82,7 @@ Hadoop is a foundational tool upon which a large number of other cluster computi
 
 ## MapReduce
 
-![Mapreduce applied to a simple word count example](../mapreduce_illustration.png)
+![Mapreduce applied to a simple word count example](../images/mapreduce_illustration.png)
 
 <div class="notes">
 
@@ -96,7 +96,7 @@ Although Mapreduce is at the heart and soul of Hadoop, it was originally develop
 
 ## Hadoop Distributed File System (HDFS) 
 
-![Illustration of HDFS architecture](hdfs_architecture.png)
+![Illustration of HDFS architecture](../images/hdfs_architecture.png)
 
 <div class="notes">
 

@@ -151,6 +151,19 @@ Simulation is another big area where parallel computing can help. This image sho
 
 </div>
 
+## Additional notes
+
+Eben Upton, St. John's College. Formed  foundation in 2005, first hardware in 2012. Pi Model A+, Model B+,, Pi 2 Model B. Simlar to Pi 3. Maximum power is 1 Amp.  Powered USB port.
+
+LAMP website.
+
+RAspbery JAM.
+
+
+www.elment14.com
+
+www.mcmelectronics.com
+
 ## Conclusion
 
 This talk has covered
